@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Semanttinen HTML</title>
 </head>
+
 <body>
-    
+
+    <header>
+        <h1>Web-kehittämisen perusteet</h1>
+        <!-- Navigaatio -->
+        <nav>
+            <a href="#semanttinen">Semanttinen HTML</a><br>
+            <a href="#tarkoitus">Semanttisuuden tarkoitus</a><br>
+            <a href="#hyodyt">Semantiikan hyödyt</a><br>
+            <a href="#huom">Huomioitavaa</a>
+        </nav>
+    </header>
+
+    <!-- Varsinainen sisältö alkaa tästä -->
+    <main>
+
+        <article>
+            <h2 id="semanttinen">Semanttinen HTML</h2>
+            <p>Jotain tekstiä..</p>
+            <p>Julkaistu: <time datetime="2026-09-09">1. lokakuuta 2023</time></p>
+            <section>
+                <h3 id="tarkoitus">Mitä semanttinen HTML tarkoittaa?</h3>
+                <p><strong>Semanttinen </strong>HTML tarkoittaa, että..</p>
+                <div>
+                    <!-- Tässä voisi olla vaikka karuselli -->
+                </div>
+                <p><mark>Semanttinen </mark>HTML tarkoittaa sitä, että..</p>
+                <!-- figure tagilla merkataan kuvat -->
+            </section>
+            <section>
+                <h3 id="hyodyt">Semanttisen HTML:n hyödyt</h3>
+                <p>Semanttisen HTML:n hyödyt ovat..</p>
+                <blockquote>
+                    <p>Käytä aina semanttisia elementtejä, kun se vain on mahdollista.</p>
+                    <cite>- Joku The Pro</cite>
+                </blockquote>
+                <p>HTML:n tagien kirjoittaminen sivulle</p>
+                <!-- &lt tarkoittaa < ja &gt tarkoittaa > -->
+                <code> &ltcode&gt</code>-elementillä
+            </section>
+        </article>
+
+        <aside>
+            <h2 id="huom">Huom!</h2>
+            <p>Sivupalkki alkaa tästä</p>
+            <p>Tässä voisi olla vaikka pikalinkkejä</p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Web-kehittämisen perusteet</p>
+        <p>&copy;Niko Hätälä</p>
+    </footer>
+
 </body>
+
 </html>
