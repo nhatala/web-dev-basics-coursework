@@ -1,0 +1,44 @@
+/* Element styles */
+body {
+    background-color: #B9DFBB;
+}
+
+/* Style for heading elements */
+h1, h2, h3 {
+    font-family: Rubik, sans-serif;
+    color:#0F3D26
+}
+
+/* Class selector and styles */
+.header {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #B9DFBB;
+    padding: 1rem;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav a{
+    font-family: Inter, sans-serif;
+    color: #0F3D26;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ID selector and styles */
+.quote {
+    font-size: 1.25rem;
+    color: #0F3D26;
+    font-weight: bold;
+}
+
