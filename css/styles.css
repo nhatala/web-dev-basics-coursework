@@ -69,17 +69,23 @@ h1, h2, h3 {
 }
 
 .intro {
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 30px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.intro-text {
+    flex: 1;
+    max-width: 800px;
+    margin-right: 20px;
 }
 
 .intro-img {
-    margin: 0 auto;
-    max-width: 30%;
+    width: 30%;
     height: auto;
+    min-width: 200px;
+    margin-left: 20px;
 }
 
 .reasons {
