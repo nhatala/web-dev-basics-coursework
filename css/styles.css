@@ -11,7 +11,7 @@ body {
     color: #0F3D26;
 }
 
-/* HEADING ELEMENTS */
+/* HEADINGS FONTS */
 h1, h2, h3 {
     font-family: Rubik, Arial, Helvetica, sans-serif;
 }
@@ -68,6 +68,24 @@ h1, h2, h3 {
     transform: scale(1.1);
 }
 
+.intro {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.intro-img {
+    margin: 0 auto;
+    max-width: 30%;
+    height: auto;
+}
+
+.reasons {
+    display: flex;
+    flex-direct;
+}
 
 .quote {
     font-size: 1.25rem;
