@@ -74,7 +74,6 @@ h1, h2, h3 {
 
 /* INTRO */
 .intro {
-    margin-top: 40px;
     display: flex;
     align-items: flex-start;
     gap: 20px;
@@ -82,9 +81,8 @@ h1, h2, h3 {
 
 .intro-text {
     flex: 1;
-    max-width: 800px;
+    align-self: center;
     margin-right: 20px;
-    background-color: #F0E2A8;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
@@ -103,6 +101,7 @@ h1, h2, h3 {
 .intro-img {
     width: 30%;
     height: auto;
+    align-self: center;
     margin-left: 20px;
 }
 
@@ -118,41 +117,40 @@ h1, h2, h3 {
 }
 
 /* TIPS*/
-.tips {
-    margin-top: 30px;
+.basic {
     display: flex;
     align-items: flex-start;
     gap: 20px;
 }
 
-.tips-text {
+.basic-text {
+    margin-top: 30px;
     flex: 1;
-    max-width: 800px;
-    background-color: #F0E2A8;
+    align-self: center;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
     margin-right: 20px;
 }
 
-.tips-text h3 {
+.basic-text h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
-.tips-text p {
+.basic-text p {
     font-size: 1.1rem;
     line-height: 1.5;
 }
 
-.tips blockquote {
+.basic blockquote {
     font-weight: bold;
     margin-top: 15px;
     padding-left: 25px;
     border-left: 4px solid #0F3D26;
 }
 
-.tips-button {
+.basic-button {
     flex: 1;
     margin-top: 20px;
     font-size: 1.1rem;
@@ -167,6 +165,7 @@ h1, h2, h3 {
 .tips-img {
     width: 30%;
     height: auto;
+    align-self: center;
     margin-left: 20px;
 }
 
@@ -182,4 +181,32 @@ h1, h2, h3 {
     font-family: Inter, Arial, Helvetica, sans-serif;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 10px 10px;
+}
+
+/* HISTORY PAGE SPECIFIC STYLES */
+.jeudepaume-img {
+    width: 30%;
+    height: auto;
+    max-height: 400px;
+    margin-left: 10px;
+    align-self: center;
+    border-radius: 5px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.oldracket-img {
+    width: 30%;
+    height: auto;
+    margin-left: 10px;
+    align-self: center;
+    border-radius: 5px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.love-img {
+    width: 30%;
+    height: auto;
+    margin-left: 10px;
+    align-self: center;
 }
