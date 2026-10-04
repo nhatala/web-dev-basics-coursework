@@ -261,7 +261,7 @@ nav a {
 }
 
 .button {
-    margin: 20px 0;
+    margin: 20px 0 20px 0;
     font-size: 1.1rem;
     padding: 10px 20px;
     background-color: #0F3D26;
@@ -269,6 +269,19 @@ nav a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* CONTACT BUTTONS */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 10px 0;
+}
+
+.contact a {
+    text-decoration: none;
+    margin: 0 15px;
 }
 
 .footer {
