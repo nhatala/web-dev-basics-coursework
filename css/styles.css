@@ -60,6 +60,7 @@ h1, h2, h3 {
     min-width: 100px;
     border-radius: 10px;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+    margin-right: 20px;
 }
 
 .stackedlogo-container h1 {
@@ -71,6 +72,7 @@ h1, h2, h3 {
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
 }
 
+/* NAVBAR */
 .navbar ul {
     display: flex;
     flex-wrap: wrap;
@@ -95,7 +97,7 @@ nav a {
     color: #0F3D26;
 }
 
-/* MAIN AND NAVBAR */
+/* MAIN */
 .container {
     width: 90%;
     max-width: 1200px;
@@ -108,9 +110,10 @@ nav a {
 
 /* INTRO */
 .intro {
+    margin-top: 20px;
     display: flex;
     align-items: flex-start;
-    gap: 20px;
+    gap: 60px;
     align-items: center;
 }
 
@@ -131,10 +134,17 @@ nav a {
     line-height: 1.5;
 }
 
-.intro-img {
-    width: 30%;
-    height: auto;
-    margin-left: 20px;
+.intro-text a {
+    text-decoration: none;
+    color: #F0E2A8;
+}
+
+.intro-text ul {
+    list-style-type: circle;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding-left: 20px;
+    margin-top: 10px;
 }
 
 /* REASONS TO PLAY CAROUSEL */
@@ -147,7 +157,7 @@ nav a {
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
-.carousel-container h3 {
+.carousel-container h2 {
     font-size: 1.5rem;
     text-align: center;
 }
@@ -204,23 +214,23 @@ nav a {
     background-color: #F0E2A8;
 }
 
-/* TIPS*/
+/* BASIC SECTION */
 .basic {
     display: flex;
     align-items: flex-start;
-    gap: 20px;
+    gap: 60px;
     align-items: center;
+    margin-top: 50px;
 }
 
 .basic-text {
-    margin-top: 30px;
     flex: 1;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
-.basic-text h3 {
+.basic-text h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
@@ -230,6 +240,19 @@ nav a {
     line-height: 1.5;
 }
 
+.basic-text a {
+    text-decoration: none;
+    color: #F0E2A8;
+}
+
+.basic-text ul {
+    list-style-type: circle;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
 .basic blockquote {
     font-weight: bold;
     margin-top: 15px;
@@ -237,8 +260,8 @@ nav a {
     border-left: 4px solid #0F3D26;
 }
 
-.basic-button {
-    margin-top: 20px;
+.button {
+    margin: 20px 0;
     font-size: 1.1rem;
     padding: 10px 20px;
     background-color: #0F3D26;
@@ -246,12 +269,6 @@ nav a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.tips-img {
-    width: 30%;
-    height: auto;
-    margin-left: 20px;
 }
 
 .footer {
@@ -267,31 +284,19 @@ nav a {
     border-radius: 0 0 10px 10px;
 }
 
-/* HISTORY PAGE SPECIFIC STYLES */
-.jeudepaume-img {
+/* IMAGE STYLES */
+.basic-img {
     display: block;
     width: 30%;
     height: auto;
     max-height: 400px;
-    margin-left: 10px;
     align-self: center;
     border-radius: 5px;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
 }
 
-.oldracket-img {
+.vector-img {
     width: 30%;
     height: auto;
-    margin-left: 10px;
-    align-self: center;
-    border-radius: 5px;
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
-
-}
-
-.love-img {
-    width: 30%;
-    height: auto;
-    margin-left: 10px;
     align-self: center;
 }
