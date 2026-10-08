@@ -110,11 +110,10 @@ nav a {
 
 /* INTRO */
 .intro {
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 60px;
-    align-items: center;
 }
 
 .intro-text {
@@ -217,9 +216,8 @@ nav a {
 /* BASIC SECTION */
 .basic {
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 60px;
-    align-items: center;
     margin-top: 50px;
 }
 
@@ -302,14 +300,18 @@ nav a {
     display: block;
     width: 30%;
     height: auto;
-    max-height: 400px;
-    align-self: center;
+    max-height: 300px;
+    margin-top: 10px;
+    object-fit: cover;
     border-radius: 5px;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
 }
 
 .vector-img {
+    display: block;
     width: 30%;
+    margin-top: 10px;
     height: auto;
-    align-self: center;
+    max-height: 300px;
+    object-fit: cover;
 }
