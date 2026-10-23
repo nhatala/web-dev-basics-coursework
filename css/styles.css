@@ -269,6 +269,16 @@ nav a {
     cursor: pointer;
 }
 
+.button:hover {
+    background-color: #d4c27a;
+    color: #0F3D26;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover a {
+    color: #0F3D26;
+}
+
 /* CONTACT BUTTONS */
 .contact {
     display: flex;
