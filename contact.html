@@ -59,10 +59,10 @@
             </section>
             <!-- CONTACT FORM -->
             <section class="form">
-                <h2>Contact form</h2>
-                <p>Fields marked with * are required.</p>
                 <form action="#" method="post">
                     <fieldset>
+                        <h2>Contact form</h2>
+                        <p>Fields marked with * are required.</p>
                         <div class="form-field">
                             <label for="firstname">First name<span class="required">*</span></label>
                             <input type="text" id="firstname" name="firstname" placeholder="First name"
@@ -86,7 +86,7 @@
                         <div class="form-field">
                             <label for="category">Category</label>
                             <select name="category" id="category" required>
-                                <option value="#">--Choose a category--</option>
+                                <option value="" disabled selected>--Choose a category--</option>
                                 <option value="general">General questions</option>
                                 <option value="guidance">Personal guidance</option>
                                 <option value="feedback">Feedback</option>
@@ -97,23 +97,25 @@
                         <div class="form-field">
                             <label for="message">Message<span class="required">*</span></label>
                             <textarea id="message" name="message" rows="4" cols="50"
-                                placeholder="Enter your message here..."></textarea>
+                                placeholder="Enter your message here..." required></textarea>
                         </div>
-                        <div class="terms">
+                        <div class="checkbox">
                             <input type="checkbox" id="terms" name="terms" required>
                             <label for="terms">I agree to the terms and conditions<span
                                     class="required">*</span></label>
                         </div>
-                        <div class="newsletter">
+                        <div class="checkbox">
                             <input type="checkbox" id="newsletter" name="newsletter">
                             <label for="newsletter">I want to subscribe to the newsletter</label>
                         </div>
+                        <!-- FORM BUTTONS -->
+                        <div class="form-buttons">
+                            <button class="submit-button"type="submit">Submit</button>
+                            <button class="reset-button" type="reset">Reset</button>
+                        </div>
                     </fieldset>
-                    <!-- FORM BUTTONS -->
-                    <div class="painikkeet">
-                        <button type="submit">Send</button>
-                        <button class="reset" type="reset">Reset</button>
-                    </div>
+                </form>
+            </section>
         </article>
     </main>
 
