@@ -83,7 +83,7 @@ h1, h2, h3 {
 .navbar li {
     margin: 10px 30px;
     color: #0F3D26;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
     transition: transform 0.2s ease, color 0.2s ease;
 }
