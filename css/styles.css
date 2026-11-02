@@ -427,13 +427,11 @@ nav a {
     color: #0F3D26;
 }
 
-.form fieldset legend {
+.form fieldset h2 {
     font-size: 1.5rem;
-    font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
     color: #0F3D26;
-    width: 100%;
 }
 
 form fieldset p {
