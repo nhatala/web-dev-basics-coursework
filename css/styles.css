@@ -410,7 +410,7 @@ nav a {
 }
 
 .required {
-    color: #B71C1C;
+    color: #8b0000;
     font-size: 1.1rem;
     margin-left: 5px;
     font-weight: bold;
@@ -427,11 +427,13 @@ nav a {
     color: #0F3D26;
 }
 
-.form fieldset h2 {
+.form fieldset legend {
     font-size: 1.5rem;
+    font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
     color: #0F3D26;
+    width: 100%;
 }
 
 form fieldset p {
