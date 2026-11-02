@@ -410,9 +410,10 @@ nav a {
 }
 
 .required {
-    color: #c92a2a;
+    color: #B71C1C;
     font-size: 1.1rem;
     margin-left: 5px;
+    font-weight: bold;
 }
 
 .form fieldset {
