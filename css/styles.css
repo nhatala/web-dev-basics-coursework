@@ -207,7 +207,6 @@ nav a {
     flex: 0 0 auto;
     scroll-snap-align: center;
     overflow: hidden;
-    border-radius: 5px;
     margin: 0 10px;
 }
 
@@ -216,6 +215,7 @@ nav a {
     height: 300px;
     display: block;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .carousel-item figcaption {
