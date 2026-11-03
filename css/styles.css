@@ -59,7 +59,7 @@ h3 {
 }
 
 .stackedlogo {
-    align-self: left;
+    align-self: start;
     width: 100px;
     border-radius: 10px;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
